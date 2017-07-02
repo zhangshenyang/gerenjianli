@@ -1,91 +1,37 @@
 /**
- * Created by Administrator on 2017/3/22 0022.
+ * Created by Administrator on 2017/6/26 0026.
  */
-
-
-//è½®æ’­æ•ˆæœ
-
-
-$(function(){
-
-
-    $('.banner_lun').kxbdSuperMarquee({
-        distance:1349,
-        time:3,
-        direction: 'left',
-        navId:'.xiao',
-
-    })
-
-
-
+//¶¯»­Ğ§¹û´úÂë
+var swiper = new Swiper('.swiper-container',{
+    direction : 'vertical',
+    onInit: function(swiper){ //Swiper2.xµÄ³õÊ¼»¯ÊÇonFirstInit
+        swiperAnimateCache(swiper); //Òş²Ø¶¯»­ÔªËØ
+        swiperAnimate(swiper); //³õÊ¼»¯Íê³É¿ªÊ¼¶¯»­
+    },
+    onSlideChangeEnd: function(swiper){
+        swiperAnimate(swiper); //Ã¿¸öslideÇĞ»»½áÊøÊ±Ò²ÔËĞĞµ±Ç°slide¶¯»­
+    }
 });
 
-$(function(){
+//»¬ÆÁĞ§¹û
 
-    $(".xiao li:eq(0)").text("æ–°é£å°š");
-    $(".xiao li:eq(1)").text("è¶…çº§ç§’æ€");
-    $(".xiao li:eq(2)").text("Teeå’–");
-    $(".xiao li:eq(3)").text("å®˜æ–¹å•†åŸApp");
+//var swiper = new Swiper('.swiper-container', {
+//    pagination: '.swiper-pagination',
+//    //paginationClickable: true,
+//    direction: 'vertical'
+//});
 
+//±³¾°ÒôÀÖ
 
-});
-
-
-$(function(){
-
-
-//mainå°è½®æ’­å›¾
-$(".menuxiao li").hover(
+$(".yinyue").tap(
     function(){
-        var s=$(this).index();
-        $(".menuda li").eq(s).stop().fadeIn().siblings().hide();
-        $(this).addClass("kon").siblings().removeClass("kon");
-    },
-    function(){}
-);
+        $(this).toggleClass("yilei");
+
+        if($("#audio").get(0).paused){
+            $("#audio").get(0).play();
+        }
+        else{$("#audio").get(0).pause();}
 
 
-//æ‚¬åœæ˜¾ç¤ºdiv
-$(".huan li").hover(
-    function(){
-        $(this).children(".xuan").show()
-    },
-    function(){
-        $(this).children(".xuan").hide()
     }
 );
-
-
-//æ‚¬åœå‘å·¦ç§»åŠ¨ï¼Œç¦»å¼€å›å»æ•ˆæœ
-$(".main3_top li").hover(
-    function(){
-
-        $(this).children("img").animate({"margin-left":"-15px"})
-    },
-    function(){
-        $(this).children("img").stop().animate({"margin-left":"0px"})
-    }
-);
-//æ‚¬åœå‘ä¸Šç§»åŠ¨ï¼Œç¦»å¼€å›å»æ•ˆæœ
-$(".main3_bottom li").hover(
-    function(){
-
-        $(this).children("img").animate({"margin-top":"-15px"})
-    },
-    function(){
-        $(this).children("img").stop().animate({"margin-top":"0px"})
-    }
-);
-
-
-//ç‚¹å‡»å…³é—­äºŒç»´ç æ•ˆæœ
-
-$(".er1").click(
-    function(){
-        $(".erweima").css("display","none");
-    }
-);
-
-
-});
