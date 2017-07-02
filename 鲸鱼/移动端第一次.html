@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <script src="script/fontsizeset.js"></script>
+    <style>
+        html{
+            font-size: 44.444px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        header{
+            width: 7.2rem;
+            height: 0.96rem;
+            background: #2aacff;
+        }
+        header a{
+            width: 0.2rem;
+            height: 0.38rem;
+            float: left;
+            font-size: 0;
+            margin: 0.29rem 0 0 0.3rem;
+
+        }
+        header a img{
+            width: 100%;
+            height: 100%;
+        }
+        header h2{
+            font-size: 0.36rem;
+            font-weight: normal;
+            color: #fff;
+            text-align: center;
+            line-height: 0.96rem;
+        }
+        .main1{
+            width: 7.2rem;
+        }
+        .main1 .tu1{
+            width: 4.63rem;
+            height: 3.18rem;
+            margin: 0.49rem auto 0.61rem auto;
+
+        }
+        .main1 .tu1 img{
+            width: 100%;
+            height: 100%;
+        }
+        .main1 .zi1{
+            width: 6.9rem;
+            border-top: 1px solid #cccccc;
+            padding: 0.3rem 0 0.34rem 0.3rem;
+        }
+        .main1 .zi1:after{
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            clear: both;
+        }
+        .main1 .zi1 p{
+            font-size: 0.32rem;
+            color: #333333;
+            height: 0.32rem;
+            margin-bottom: 0.2rem;
+        }
+        .main1 .zi1 .sp1{
+            color: #8a8a8a;
+            font-size: 0.28rem;
+            display: block;
+            height: 0.32rem;
+            width: 0.7rem;
+            float: left;
+        }
+        .main1 .zi1 .sp2{
+            color: red;
+            font-size: 0.32rem;
+            float: left;
+            display: block;
+            height: 0.32rem;
+            width: 2.14rem;
+            font-weight: bold;
+        }
+        .main1 .liang{
+            width: 7.2rem;
+            height: 0.92rem;
+            border-top:1px solid #cccccc;
+            border-bottom:1px solid #cccccc;
+        }
+        .main1 .liang li{
+            width: 3.6rem;
+            height: 0.94rem;
+            float: left;
+
+        }
+        .main1 .liang li a{
+            font-size: 0.32rem;
+            display: block;
+            height: 0.94rem;
+            line-height: 0.94rem;
+            text-align: center;
+            color: black;
+        }
+        .main1 .tu2{
+            width: 6.6rem;
+            padding: 0.4rem 0.3rem;
+        }
+        .main1 .tu2 img{
+            width: 6.6rem;
+            height: 4.2rem;
+        }
+        .main1 .tu3{
+            width: 7.2rem;
+
+        }
+        .main1 .tu3 img{
+            width: 100%;
+            height: 100%;
+        }
+        .main2{
+            width: 7.2rem;
+        }
+        .main2 .top{
+            width: 6.06rem;
+            padding: 0.48rem 0.56rem 0.4rem 0.58rem;
+
+        }
+        .main2 .top h2{
+            font-size: 0.48rem;
+            text-align: center;
+
+        }
+        .main2 .top h4{
+            font-size: 0.32rem;
+            text-align: center;
+            font-weight: normal;
+            margin-top: 0.3rem;
+
+        }
+        .main2 .top p{
+            font-size: 0.24rem;
+            text-align: center;
+            margin-top: 0.45rem;
+            color: #5c5c5c;
+            line-height: 0.5rem;
+        }
+        .main2 .bottom{
+            width: 6.6rem;
+            padding: 0 0.3rem 0.6rem 0.3rem;
+        }
+        .main2 .bottom img{
+            width: 100%;
+            height: 100%;
+        }
+        .main3{
+            width: 6.6rem;
+            padding: 0.62rem 0.3rem 0.8rem 0.3rem;
+            background: #e5e5e5;
+        }
+        .main3 .top{
+            width: 6.6rem;
+        }
+        .main3 .top h2{
+            font-size: 0.48rem;
+            text-align: center;
+        }
+        .main3 .top p{
+            font-size: 0.32rem;
+            text-align: center;
+            line-height: 0.5rem;
+            margin-bottom: 0.2rem;
+        }
+        .main3 .center{
+            width: 4.65rem;
+            margin: 0 auto;
+        }
+        .main3 .center img{
+            width: 100%;
+            height: 100%;
+        }
+        .main3 .top2{
+            width: 6.6rem;
+        }
+        .main3 .top2 h4{
+            font-size: 0.32rem;
+            text-align: center;
+            font-weight: normal;
+            margin: 0.4rem 0;
+        }
+        .main3 .top2 p{
+            font-size: 0.28rem;
+            text-align: center;
+            color: #7e7e7e;
+            margin-bottom: 0.5rem;
+        }
+        .main3 .top2 p span{
+            color: red;
+        }
+        .main3 .bottom{
+            width: 6.6rem;
+        }
+        .main3 .bottom ul{
+            width: 6.62rem;
+            height: 0.55rem;
+            background: white;
+
+        }
+        .main3 .bottom ul:after{
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            clear: both;
+        }
+        .main3 .bottom ul li{
+            border-right: 1px solid #cccccc;
+            width: 2.19rem;
+
+            text-align: center;
+            line-height: 0.55rem;
+            font-size: 0.28rem;
+            float: left;
+        }
+        .main3 .bottom ul:last-child li{
+            width: 1.99rem;
+            height: 1.75rem;
+            text-align: center;
+           line-height: 0.28rem;
+            padding: 0.15rem 0.1rem;
+        }
+        .main4{
+            width: 6.62rem;
+            padding: 0.22rem 0.29rem 0.8rem 0.29rem;
+            position: relative;
+        }
+        .main4 ul:after{
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            clear: both;
+        }
+        .main4 li{
+            float: left;
+            width: 2.19rem;
+            margin-right: 0.01rem;
+        }
+        .main4 li img{
+            width: 100%;
+            height: 100%;
+        }
+        .main4 .footer{
+            width: 6.6rem;
+        }
+        .main4 .footer h4{
+            font-size: 0.28rem;
+            color: #d8d8d8;
+            text-align: center;
+            font-weight: normal;
+            margin: 0.4rem 0 0.45rem 0;
+        }
+        .main4 .footer .ditu{
+            width: 2.04rem;
+            height: 2.04rem;
+            margin: 0 auto;
+
+        }
+        .main4 .footer .ditu img{
+            width: 100%;
+            height: 100%;
+        }
+        .main4 .footer p{
+            font-size: 0.28rem;
+            text-align: center;
+            color: #333333;
+            margin: 0.22rem 0 0.8rem 0;
+        }
+        .main4 .ding{
+            width: 1.1rem;
+            height: 1.05rem;
+            position: absolute;
+            top: -0.83rem;
+        }
+        .main4 .ding img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href=""><img src="images/jiantou_03.png" alt=""/></a>
+        <h2>产品详情</h2>
+        
+    </header>
+    <section class="main1">
+
+        <div class="tu1">
+            <img src="images/tu1.png" alt=""/>
+        </div>
+        <div class="zi1">
+            <p>智信购定制化55寸全新高清LCD立式广告</p>
+            <span class="sp1">价格:</span>
+            <span class="sp2">￥29000.00元</span>
+        </div>
+        <div class="liang">
+            <ul>
+                <li style="border-right: 1px solid #cccccc;width: 3.56rem;border-bottom: 2px solid red"><a href="" style="color: red;">描述</a></li>
+                <li ><a href="">参数</a></li>
+            </ul>
+        </div>
+        <div class="tu2">
+            <img src="images/tu2.png" alt=""/>
+        </div>
+        <div class="tu3">
+            <img src="images/tu2.2.png" alt=""/>
+        </div>
+    </section>
+    <section class="main2">
+        <div class="top">
+            <h2>IPS屏-精选面板</h2>
+            <h4>高清液晶面板，画质细腻精彩呈现；</h4>
+            <p>40英寸TFT面板，窄边设计，双屏拼缝为20mm，完美的拼 接效果；178°的超宽可视角度。</p>
+        </div>
+        <div class="bottom">
+            <img src="images/images/tu3.png" alt=""/>
+        </div>
+    </section>
+    <section class="main3">
+        <div class="top">
+            <h2>55英寸-黄金尺寸</h2>
+            <p>55寸黄金比例无论你是看电影、玩游戏，还是 办公都能满足你。</p>
+        </div>
+        <div class="center">
+            <img src="images/daoying.png" alt=""/>
+        </div>
+        <div class="top2">
+            <h4>不知道选什么尺寸？选55寸就对了</h4>
+            <p>性价比超高 <span>全网40％的客户</span>选55寸显示器产品</p>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li>尺寸</li>
+                <li>32英寸</li>
+                <li style="color: red;border: 0">55英寸</li>
+            </ul>
+            <ul style=" background: #e5e5e5;">
+                <li>分辨率</li>
+                <li>1920*1080</li>
+                <li style="color: red;border: 0">1920*1080</li>
+            </ul>
+            <ul>
+                <li>点距</li>
+                <li>0.245mm</li>
+                <li style="color: red;border: 0">0.245mm</li>
+            </ul>
+            <ul style=" background: #e5e5e5;">
+                <li>价格</li>
+                <li>3.6万左右</li>
+                <li style="color: red;border: 0">3.6万左右</li>
+            </ul>
+            <ul style="height: 2.02rem;width: 6.62rem;line-height: 2.02rem">
+                <li style="line-height: 2.02rem">评价</li>
+                <li>屏幕较小，看 电影不够爽， 点距小看字费力</li>
+                <li style="color: red;border: 0">屏幕和点距大小 适中，画质精细， 无论是影音娱乐 还是上网办公都 比较方便</li>
+            </ul>
+        </div>
+        
+    </section>
+    <section class="main4">
+        <div class="ding"><img src="images/yuan.png" alt=""/></div>
+        <ul>
+            <li><img src="images/di1.png" alt=""/></li>
+            <li style="margin-left: 0.01rem"><img src="images/di2.png" alt=""/></li>
+            <li style="margin: 0;width: 2.2em;"><img src="images/di3.png" alt=""/></li>
+        </ul>
+        <div class="footer">
+            <h4>如需购买，请拨打400-6699-901</h4>
+            <div class="ditu">
+                <img src="images/二维码.png" alt=""/>
+            </div>
+            <p>扫一扫关注我们</p>
+        </div>
+    </section>
+</body>
+</html>
