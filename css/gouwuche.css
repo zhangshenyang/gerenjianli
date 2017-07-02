@@ -1,0 +1,387 @@
+.nav_dao{
+    width: 1200px;
+    height: 30px;
+    margin: 5px auto 5px auto;
+}
+.nav_dao span{
+    line-height: 30px;
+    font-size: 12px;
+    color: #666666;
+}
+.logo{
+    width: 1200px;
+    margin: 0 auto;
+    height: 37px;
+}
+
+
+/*π∫ŒÔ≤Ω÷ËÕº*/
+.buzou{
+
+    width: 1200px;
+    margin: 30px auto 0 auto;
+}
+.buzou ul li{
+    line-height: 30px;
+    float: left;
+    height: 30px;
+}
+.buzou ul li .a1{
+    display: block;
+    width: 335px;
+    height: 30px;
+    line-height: 30px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+
+}
+.buzou ul li .a1 .sp1{
+    background: white;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin:5px 8px 0 10px;
+    font-size: 12px;
+    color: #666666;
+}
+.buzou ul li .a2{
+    display: block;
+    width: 335px;
+    height: 30px;
+    line-height: 30px;
+    background:#efefef;
+    color: #8c8c8c;
+    font-weight: bold;
+
+}
+.buzou ul li .a2:hover{
+    background: orange;
+    color: white;
+}
+.buzou ul li .a2 .sp2{
+    background:#cbcbcb;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin:5px 8px 0 10px;
+    font-size: 12px;
+    color:white;
+}
+.buzou ul li .a3{
+    display: block;
+    width: 335px;
+    height: 30px;
+    line-height: 30px;
+    background:#efefef;
+    color: #8c8c8c;
+    font-weight: bold;
+
+}
+.buzou ul li .a3 .sp3{
+    background:#cbcbcb;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin:5px 8px 0 10px;
+    font-size: 12px;
+    color:white;
+}
+h2{
+    width: 1200px;
+    margin: 20px auto 0 auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #666666;
+}
+.main{
+    width: 1198px;
+    margin: 0 auto;
+    border: 1px solid #8e8e8e;
+}
+.main .top{
+    width: 1198px;
+    height: 30px;
+    padding: 3px 0;
+    background: #efefef;
+}
+.main .top ul li{
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #666666;
+}
+.main .center{
+    width: 1198px;
+
+}
+.main .center .tu{
+    border: 1px solid #8e8e8e;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 10px 0 5px 15px;
+}
+.main .center .tu img{
+    width: 80px;
+    height: 80px;
+}
+.main .center .zi{
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+}
+.main .center .zi a{
+    display: block;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #666666;
+    cursor: pointer;
+}
+.main .center .zi a:hover{
+    color: #0287ca;
+    text-decoration: underline;
+}
+.main .center .zi .sp{
+    margin-top: 15px;
+    width: 100px;
+    height: 20px;
+    background: #ff9326;
+    border-radius: 10px;
+    display: block;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: #666666;
+}
+.main .center .zi2{
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 195px;
+}
+.main .center .zi2 span{
+    font-size: 12px;
+    color: #666666;
+}
+.main .center .zi3{
+    width: 100px;
+    height: 30px;
+    float: left;
+}
+.main .center .zi3 div{
+    float: left;
+    margin-top: 10px;
+}
+.main .center .zi3 .box1{
+    margin-left: 10px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #DDDDE1;
+    text-align: center;
+    line-height: 22px;
+    color: #666666;
+    float: left;
+    cursor: pointer;
+}
+.main .center .zi3 .box2{
+    width: 32px;
+    height: 20px;
+    border: 1px solid #DDDDE1;
+    text-align: center;
+    line-height: 20px;
+    color: #666666;
+    float: left;
+    margin-top: 10px;
+}
+.main .center .zi3 .box3{
+    width: 22px;
+    height: 22px;
+    border: 1px solid #DDDDE1;
+    text-align: center;
+    line-height: 22px;
+    color: #666666;
+    float: left;
+    cursor: pointer;
+}
+.main .center .zi4{
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    color: #666666;
+    margin-top: 5px;
+}
+.main .center .zi5{
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+}
+.main .center .zi5 span{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    color: #666666;
+    text-align: center;
+    line-height: 30px;
+}
+.main .center .zi6{
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+}
+.main .center .zi6 span{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    color: firebrick;
+    text-align: center;
+    line-height: 30px;
+}
+.main .center .zi7{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    float: left;
+    line-height: 30px;
+    font-size: 12px;
+}
+.main .center .zi7 a{
+    color: #0064b8;
+
+}
+.main .center .zi7 a:hover{
+    text-decoration: underline;
+}
+
+.main .bottom{
+    width: 1199px;
+    border-top: 1px solid #8e8e8e;
+}
+.main .bottom .bottom1{
+    width: 799px;
+    height: 128px;
+    float: left;
+}
+.main .bottom .bottom2{
+    width: 399px;
+    height: 128px;
+    float: left;
+    border-top: 1px solid white;
+}
+.main .bottom .bottom2 .sp{
+    display: inline-block;
+    font-size: 16px;
+    color: #666666;
+    font-weight: bold;
+    margin: 80px 0 0 140px;
+}
+.main .bottom .bottom2 .jiage{
+    width: 60px;
+    height: 30px;
+    border: 0;
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    text-align: right;
+}
+.main .bottom .bottom2 .sp2{
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    border: 0;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+.main .bottom .bottom2 .sp3{
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    border: 0;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+.main .di{
+    width: 1198px;
+    background: #efefef;
+}
+.main .di .di1{
+    float: left;
+    width: 799px;
+    height: 70px;
+
+}
+.main .di .di1 a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666666;
+    background: white;
+    margin: 20px 0 0 30px;
+    font-weight: bold;
+}
+.main .di .di1 a:hover{
+    background: #434A54;
+    color: white;
+}
+.main .di .di2{
+    float: left;
+    width: 399px;
+    height: 70px;
+    border-top: 1px solid white;
+}
+.main .di .di2 .a1{
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 12px;
+    color: #0074cc;
+    margin: 30px 10px 0 180px;
+
+}
+.main .di .di2 .a1:hover{
+    color: orange;
+    text-decoration: none;
+}
+.main .di .di2 .a2{
+    display:inline-block;
+    width: 150px;
+    height: 40px;
+    background: firebrick;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    border-radius: 5px;
+
+}
+.main .di .di2 .a2:hover{
+    background: rgba(218,2,2,0.8);
+}

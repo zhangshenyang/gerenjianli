@@ -1,0 +1,166 @@
+/*页面的初始化*/
+
+body,div,ul,h2,h4,p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+
+
+/*页面的header*/
+
+
+/*header_top*/
+.header{
+    width: 100%;
+}
+.header .header_top{
+    width: 1200px;
+    margin:0 auto 10px auto ;
+}
+.header .header_top img{
+    padding-top: 10px;
+    float: left;
+}
+.header .header_top .header_top_left{
+    width: 621px;
+    float: left;
+    padding-left: 30px;
+    height: 42px;
+    padding-top: 25px;
+    float: left;
+
+}
+.header .header_top .header_top_left .huanyin{
+    width: 621px;
+    color: #888;
+    height: 20px;
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 10px;
+}
+.header .header_top .header_top_left .huanyin span{
+    color: red;
+}
+.header .header_top .header_top_left .xnav{
+    width: 621px;
+    height: 22px;
+    padding-top: 9px;
+}
+.header .header_top .header_top_left .xnav ul li{
+    float: left;
+    padding: 0 10px 0 10px;
+    font-size: 13px;
+    border-right: 1px solid #888;
+}
+.header .header_top .header_top_left .xnav ul li a{
+    color: #888;
+}
+.header .header_top .header_top_left .xnav ul li a span{
+    color: red;
+    font-weight: bold;
+}
+.header .header_top .header_top_left .xnav ul li a:hover{
+    color: orange;
+}
+.header .header_top .header_top_left .xnav ul li a span:hover{
+    color: orange;
+}
+.header .header_top .header_top_right{
+    width: 190px;
+    float: right;
+}
+.header .header_top .header_top_right img{
+    margin-left: 94px;
+    padding-bottom: 10px;
+}
+.header .header_top .header_top_right .guanjian{
+    width: 161px;
+    color: #888;
+    float: left;
+}
+.header .header_top .header_top_right .sousuo{
+    border: 0;
+    width: 21px;
+    height: 21px;
+    background: url("../tu/images/shousuo.png") no-repeat;
+
+}
+
+/*header_bottom  nav*/
+
+.header_bottom{
+    width: 100%;
+    height: 30px;
+    background: #cd161b;
+}
+.header_bottom .bottom_center{
+    width: 1200px;
+    margin: 0 auto;
+    height: 30px;
+}
+.header_bottom .nav>li{
+    z-index: 999;
+    float: left;
+    line-height: 30px;
+    padding: 0 36px 0 35px;
+    position: relative;
+}
+.header_bottom .nav>li>a{
+    display: block;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+}
+.header_bottom .nav>li:hover{
+    background: black;
+    color: white;
+   border: 0;
+}
+.header_bottom .nav .menu{
+    z-index: 999;
+    background: rgba(0,0,0,0.7);
+    width: 500px;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    padding-bottom: 10px;
+    display: none;
+
+}
+.header_bottom .nav .menu h6{
+    margin-right: 60px;
+    float: left;
+    margin-left: 35px;
+    color: white;
+}
+.header_bottom .nav .menu .menu_er{
+    float: left;
+    margin:10px 50px 0 0;
+}
+.header_bottom .nav .menu .menu_er li a{
+    color: white;
+}
+.header_bottom .nav .menu .menu_er li a:hover{
+    color: orange;
+}
+
+
+/*返回顶部固定定位*/
+
+.guding{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 80px;
+    right: 40px;z-index: 999;
+
+}
+
+
