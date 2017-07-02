@@ -1,0 +1,85 @@
+
+.animate{
+    animation: 3s linear;
+}
+.yanshi{
+    animation-delay: 1s;
+}
+/*音乐*/
+.yilei{
+    animation: yinyue 1s linear infinite;
+}
+@keyframes yinyue {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+
+/*灯光*/
+
+.deng{
+    animation: deng 0.5s linear infinite;
+}
+@keyframes deng {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+/*一屏转*/
+.zhuan{
+    animation: zhuan 15s linear infinite;
+}
+@keyframes zhuan {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+/*二屏小的转*/
+
+.xiao{
+    animation: xiao 5s linear infinite;
+}
+
+@keyframes xiao {
+    0%{ transform: rotate(0deg);}
+    100%{ transform: rotate(-360deg);}
+}
+
+
+/*=====*/
+.ddz{
+    animation: ddz 5s linear infinite;
+}
+.zdz{
+    animation: ddz 5s linear infinite;
+}
+.xdz{
+    animation: ddz 5s linear infinite;
+}
+@keyframes ddz {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+@keyframes zdz {
+     0%{transform: rotate(0deg)}
+     100%{transform: rotate(-360deg)}
+ }
+@keyframes xdz {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(-360deg)}
+}
+
+/*.kuang{*/
+    /*animation: kuang 1.5s linear forwards;*/
+/*}*/
+/*@keyframes kuang {*/
+    /*0%{transform:translateY(-8rem) rotate(0deg)}*/
+    /*100%{transform:translateY(0rem) rotate(360deg)}*/
+/*}*/
+.san{
+    animation: san 1s linear infinite;
+}
+@keyframes san {
+    0%{opacity: 0;transform:translateY(0rem);}
+    100%{ opacity: 1;transform:translateY(-0.15rem);}
+}
+
