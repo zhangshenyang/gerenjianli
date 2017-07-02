@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: gainsboro;
+}
+
+.header_top{
+    width: 6.4rem;
+    height: 0.8rem;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255,0,0,1);
+    overflow: hidden;
+}
+.header_top .logo{
+    float: left;
+    width: 1.11rem;
+    height: 0.8rem;
+    background: url("../images/sprites.png")no-repeat 0 -2.1rem;
+    background-size: 4rem 4rem;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+}
+.txt{
+    position: relative;
+    float: left;
+    font-size: 0;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+}
+.txt input{
+    width: 4rem;
+    height: 0.6rem;
+    float: left;
+    border-radius: 0.4rem;
+    border: 0.01rem solid #000;
+    outline: none;
+    padding-left: 0.6rem;
+}
+.txt .search{
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../images/sprites.png")no-repeat -1.1rem -2.1rem;
+    background-size: 4rem 4rem;
+    position: absolute;
+    top: 0.05rem;
+    left: 0.05rem;
+    padding-left: 0.1rem;
+}
+.login{
+    float: left;
+    font-size: 0.25rem;
+    color: white;
+    margin-top: 0.15rem;
+    margin-left: 0.2rem;
+}
+
+.swiper-container{
+    width: 6.4rem;
+    height: 3.2rem;
+    overflow: hidden;
+}
+.swiper-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.fenlei{
+    width: 6.4rem;
+    background: white;
+    overflow: hidden;
+}
+.fenlei img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.fenlei li{
+    width: 1.6rem;
+    float: left;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+.fenlei li p{
+    font-size: 0.25rem;
+}
+
+.main1{
+    width: 6.3rem;
+    margin: 0.1rem auto;
+    background: white;
+    overflow: hidden;
+}
+.main1 h2{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.25rem;
+    font-weight: normal;
+    margin-bottom: 0.1rem;
+}
+.main1 h2 span{
+    width: 1.4rem;
+    height: 0.5rem;
+    display: block;
+    color: red;
+    float: left;
+    background: url("../images/seckill-icon.png")no-repeat 0 0.08rem;
+    background-size: 0.33rem 0.33rem;
+    padding-left: 0.4rem;
+}
+.main1 h2 a{
+    color: black;
+    float: right;
+}
+.main1 li{
+    padding: 0 0.4rem;
+    text-align: center;
+    float: left;
+}
+.main1 li img{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.main1 li span{
+    font-size: 0.2rem;
+    color: #ef8c91;
+    display: block;
+}
+.main1 li p{
+    font-size: 0.25rem;
+    margin: 0.2rem 0;
+    text-decoration: line-through;
+}
+
+.main2{
+    width: 6.3rem;
+    margin: 0.1rem auto;
+    background: white;
+    overflow: hidden;
+}
+.main2 h2{
+    height: 0.5rem;
+    font-size: 0.25rem;
+    font-weight: normal;
+    line-height: 0.5rem;
+    border-bottom: 0.01rem solid #dfdfdf;
+}
+.main2 h2 span{
+    padding: 0 0.1rem;
+    font-size: 0.25rem;
+    font-weight: bold;
+    color: red;
+}
+.main2 li{
+    float: left;
+
+}
+.main2 li:nth-child(1){
+    width: 3.14rem;
+    height: 3.48rem;
+}
+.main2 li:nth-child(1) img{
+    width: 3.14rem;
+    height: 3.48rem;
+    border-right: 0.01rem solid #dfdfdf;
+}
+.main2 li:nth-child(2){
+    width: 3.14rem;
+    height: 1.77rem;
+}
+.main2 li:nth-child(2) img{
+    width: 3.14rem;
+    height: 1.77rem;
+    border-bottom: 0.01rem solid #dfdfdf;
+}
+.main2 li:nth-child(3) img{
+    width: 3.14rem;
+    height: 1.77rem;
+}
+
+.main3{
+    width: 6.3rem;
+    margin: 0.1rem auto;
+    background: white;
+    overflow: hidden;
+}
+.main3 h2{
+    height: 0.5rem;
+    font-size: 0.25rem;
+    font-weight: normal;
+    line-height: 0.5rem;
+    border-bottom: 0.01rem solid #dfdfdf;
+}
+.main3 h2 span{
+    padding: 0 0.1rem;
+    font-size: 0.25rem;
+    font-weight: bold;
+    color: red;
+}
+.main3 li{
+    float: left;
+}
+.main3 li:nth-child(1){
+    width: 3.14rem;
+    height: 1.77rem;
+}
+.main3 li:nth-child(1) img{
+    width: 3.14rem;
+    height: 1.77rem;
+    border-bottom: 0.01rem solid #dfdfdf;
+}
+.main3 li:nth-child(2){
+    width: 3.14rem;
+    height: 3.48rem;
+    float: right;
+}
+.main3 li:nth-child(2) img{
+    width: 3.14rem;
+    height: 3.48rem;
+    border-left: 0.01rem solid #dfdfdf;
+}
+.main3 li:nth-child(3){
+    width: 3.14rem;
+    height: 1.77rem;
+}
+.main3 li:nth-child(3) img{
+    width: 3.14rem;
+    height: 1.77rem;
+}
+
+
+
