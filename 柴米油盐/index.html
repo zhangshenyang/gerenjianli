@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title></title>
+    <script src="js/fontsize.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="js/swiper-3.4.2.min.css">
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/zepto.min.js"></script>
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        html{
+            height: 100%;
+        }
+        body{
+            width: 6.4rem;
+            height: 100%;
+            background: url("images/index_bg.png") no-repeat;
+            background-size: 100% 100%;
+        }
+
+
+        .index{
+            width: 6.4rem;
+            height: 100%;
+            position: relative;
+
+        }
+        .logo{
+            width: 2.41rem;
+            height: 2.29rem;
+            position: absolute;
+            top:4.11rem;
+            left:50%;
+            margin-left: -1.205rem;
+            animation: logo 1s ease 1;
+            opacity: 0;
+            display: block;
+            animation-fill-mode: forwards;
+
+        }
+        @keyframes logo {
+            0%{transform: translateY(0rem);opacity: 0;}
+            100%{transform: translateY(-2rem);opacity: 1}
+        }
+        .logo img{
+            width: 2.41rem;
+            height: 1.29rem;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="index">
+        <a href="two.html" class="logo"><img src="images/logo.png" alt=""></a>
+
+    </div>
+</body>
+</html>

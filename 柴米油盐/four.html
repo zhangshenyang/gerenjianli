@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>哎呦哎呦柴米油盐</title>
+    <script src="js/fontsize.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="js/swiper-3.4.2.min.css">
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .header{
+            width: 6.4rem;
+            height: 0.62rem;
+            background: #706c07;
+            font-size: 0;
+            line-height: 0.62rem;
+        }
+        .header span{
+            font-size: 0.3rem;
+            color: whitesmoke;
+            display: inline-block;
+            margin-left: 1.35rem;
+        }
+        .header a:nth-of-type(1){
+            display: inline-block;
+            width: 0.16rem;
+            height: 0.25rem;
+            margin-left: 0.28rem;
+            padding: 0.05rem 0.25rem 0.1rem 0;
+            border-right: 0.01rem solid #565204;
+        }
+        .header a:nth-of-type(1) img{
+            width: 0.16rem;
+            height: 0.25rem;
+        }
+        .header a:nth-of-type(2){
+            display: inline-block;
+            width: 0.30rem;
+            height: 0.30rem;
+            margin-left: 0.65rem;
+            padding: 0.03rem 0.22rem 0.03rem 0;
+            border-right: 0.01rem solid #565204;
+        }
+        .header a:nth-of-type(2) img{
+            width: 0.30rem;
+            height: 0.30rem;
+        }
+        .header a:nth-of-type(3){
+            display: inline-block;
+            width: 0.33rem;
+            height: 0.31rem;
+            margin-left: 0.21rem;
+        }
+        .header a:nth-of-type(3) img{
+            width: 0.33rem;
+            height: 0.31rem;
+        }
+        .banner{
+            width: 6.4rem;
+            height: 3.61rem;
+
+        }
+        .banner img{
+            width: 6.4rem;
+            height: 3.61rem;
+
+        }
+        .main{
+            width: 6.4rem;
+            background: white;
+        }
+        .main>p:nth-of-type(1){
+            width: 5.95rem;
+            font-size: 0.3rem;
+            margin: 0.26rem 0 0 0.2rem;
+            border-bottom: 0.01rem solid #f1f1f1;
+            padding-bottom: 0.16rem;
+        }
+        .main>p:nth-of-type(2){
+            font-size: 0.18rem;
+            color: #9b9b9b;
+            margin: 0.28rem 0 0 0.19rem;
+            line-height: 0.5rem;
+        }
+        .main_bg{
+            width: 6.06rem;
+            height: 1.37rem;
+            border: 0.01rem solid #f1f0ed;
+            background: #f6f6f6;
+            font-size: 0;
+            margin: 0.43rem auto 0 auto;
+
+        }
+        .main_bg>span:nth-of-type(1){
+            width: 1.29rem;
+            height: 1.37rem;
+            display: inline-block;
+            line-height: 1.37rem;
+            font-size: 0.24rem;
+            margin-left: 0.25rem;
+            margin-right: 0.24rem;
+        }
+        .main_bg>span:nth-of-type(2),.main_bg>span:nth-of-type(3){
+            display: inline-block;
+            width: 0.32rem;
+            height: 0.32rem;
+            background: #c2c0c0;
+            color: black;
+            font-size: 0.2rem;
+            text-align: center;
+        }
+        .main_bg input{
+            width: 0.55rem;
+            height: 0.3rem;
+            border:0.01rem #d8d8d8 solid;
+            text-align: center;
+            font-size: 0.14rem;
+            margin-top: -0.03rem;
+        }
+        .main_bg p{
+            display: inline-block;
+            width: 2rem;
+            height: 1.18rem;
+            float: right;
+            font-size: 0.24rem;
+            padding-top: 0.2rem;
+
+        }
+        .main_bg p span{
+            display: inline-block;
+            color: #e70c0c;
+        }
+        .main>a{
+            width: 2.26rem;
+            height: 0.61rem;
+            background: -webkit-linear-gradient(top,#ff430f 0%,#fc100d 100%);
+            display: inline-block;
+            border-radius: 0.05rem;
+            font-size: 0.3rem;
+            line-height: 0.6rem;
+            text-align: center;
+            color: whitesmoke;
+            margin-left: 0.49rem;
+        }
+        .main>a:nth-of-type(2){
+            background: url("images/a_bg.png") no-repeat center center;
+            background-size:2.26rem 0.61rem;
+            padding-left: 0.5rem;
+            box-sizing: border-box;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <a href=""><img src="images/left_pic.png" alt=""></a>
+    <span>68元精品商务套餐</span>
+    <a href=""><img src="images/center_pic.png" alt=""></a>
+    <a href=""><img src="images/right_pic.png" alt=""></a>
+</div>
+<div class="banner">
+    <img src="images/four_banner.png" alt="">
+</div>
+<div class="main">
+    <p>68元精品商务套餐</p>
+    <p>详情：糖醋排骨 青椒牛柳 溜虾仁 素炒茼蒿 炸鲜奶 蒸芋头 圣女果 蒸蛋羹 水果品牌 （需提前一顿预约）</p>
+    <div class="main_bg">
+        <span>购买数量：</span>
+        <span id="remove">-</span>
+        <input id="num" type="text" value="1">
+        <span id="add">+</span>
+        <p>
+            单&nbsp;&nbsp;&nbsp;价：<span>￥68</span>
+            <br>会员价：<span style="text-decoration: line-through">￥68</span>
+            <br>总&nbsp;&nbsp;&nbsp;价：<span>￥68</span>
+        </p>
+    </div>
+    <a href="">购买</a><a href="" style="margin-left: 0.89rem">加入购物车</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script>
+
+    $("#add").click(
+        function(){
+            var a=$("#num").val();
+            var b=Number(a)+1;
+            $("#num").val(b);
+
+        }
+    );
+    $("#remove").click(
+        function(){
+            var a=$("#num").val();
+            var b=Number(a)-1;
+            $("#num").val(b);
+
+        }
+    );
+</script>

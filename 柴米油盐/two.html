@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>哎呦哎呦柴米油盐</title>
+    <script src="js/fontsize.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="js/swiper-3.4.2.min.css">
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .clear{
+            clear: both;
+        }
+        .header{
+            width: 6.4rem;
+            height: 0.84rem;
+            font-size: 0;
+        }
+        .header img{
+            width: 6.4rem;
+            height: 0.84rem;
+        }
+        .swiper-container{
+            width: 6.4rem;
+            height: 3.39rem;
+        }
+        .swiper-slide img{
+            width: 6.4rem;
+            height: 3.39rem;
+        }
+        .main{
+            width: 6.4rem;
+        }
+        .main_one{
+            display: inline-block;
+            width: 2.12rem;
+            height: 2.2rem;
+            text-align: center;
+            font-size: 0;
+            border: 0.01rem solid #d7d6d6;
+            margin: 0;
+            float: left;
+        }
+        .main_one:nth-of-type(1){
+            border-left: 0;
+            border-top: 0;
+        }
+        .main_one:nth-of-type(2){
+            border-left: 0;
+            border-top: 0;
+        }
+        .main_one:nth-of-type(3){
+            border-left: 0;
+            border-top: 0;
+            border-right: 0;
+        }
+        .main_one:nth-of-type(4){
+            border-left: 0;
+
+        }
+        .main_one:nth-of-type(5){
+            border-left: 0;
+        }
+        .main_one:nth-of-type(6){
+            border-left: 0;
+            border-right: 0;
+        }
+        .main_one:nth-of-type(7){
+            border-left: 0;
+        }
+        .main_one:nth-of-type(8){
+            border-left: 0;
+        }
+        .main_one:nth-of-type(9){
+            border-left: 0;
+            border-right: 0;
+        }
+        .main_one img{
+            width: 1.21rem;
+            height: 1.21rem;
+            margin-top: 0.35rem;
+        }
+        .main_one p{
+            font-size: 0.26rem;
+            color: black;
+            margin-top: 0.19rem;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <img src="images/two_header.png" alt="">
+</div>
+<div class="swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide"><img src="images/banner.png" alt=""></li>
+            <li class="swiper-slide"><img src="images/banner.png" alt=""></li>
+            <li class="swiper-slide"><img src="images/banner.png" alt=""></li>
+        </ul>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+</div>
+<div class="main">
+    <a href="" class="main_one">
+        <img src="images/main_pic1.png" alt="">
+        <p>新闻资讯</p>
+    </a>
+    <a href="kuaicanhuoche.html" class="main_one">
+        <img src="images/main_pic2.png" alt="">
+        <p>快餐火车</p>
+    </a>
+    <a href="" class="main_one">
+        <img src="images/main_pic3.png" alt="">
+        <p>中西餐大全</p>
+    </a>
+    <div class="clear"></div>
+    <a href="" class="main_one">
+        <img src="images/main_pic4.png" alt="">
+        <p>大菜场</p>
+    </a>
+    <a href="" class="main_one">
+        <img src="images/main_pic5.png" alt="">
+        <p>调料品</p>
+    </a>
+    <a href="" class="main_one">
+        <img src="images/main_pic6.png" alt="">
+        <p>干货市场</p>
+    </a>
+    <div class="clear"></div>
+    <a href="" class="main_one">
+        <img src="images/main_pic7.png" alt="">
+        <p>营养大全</p>
+    </a>
+    <a href="" class="main_one">
+        <img src="images/main_pic8.png" alt="">
+        <p>安全专栏</p>
+    </a>
+    <a href="" class="main_one">
+        <img src="images/main_pic9.png" alt="">
+        <p>个人中心</p>
+    </a>
+    <div class="clear"></div>
+
+</div>
+</body>
+</html>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+
+    });
+</script>

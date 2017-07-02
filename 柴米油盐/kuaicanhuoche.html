@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>哎呦哎呦柴米油盐</title>
+    <script src="js/fontsize.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="js/swiper-3.4.2.min.css">
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .header{
+            width: 6.4rem;
+            height: 0.62rem;
+            background: #706c07;
+            font-size: 0;
+            line-height: 0.62rem;
+        }
+        .header span{
+            font-size: 0.3rem;
+            color: whitesmoke;
+            display: inline-block;
+            margin-left: 1.97rem;
+        }
+        .header a:nth-of-type(1){
+            display: inline-block;
+            width: 0.16rem;
+            height: 0.25rem;
+            margin-left: 0.28rem;
+            padding: 0.05rem 0.25rem 0.1rem 0;
+            border-right: 0.01rem solid #565204;
+        }
+        .header a:nth-of-type(1) img{
+            width: 0.16rem;
+            height: 0.25rem;
+        }
+        .header a:nth-of-type(2){
+            display: inline-block;
+            width: 0.30rem;
+            height: 0.30rem;
+            margin-left: 1.25rem;
+            padding: 0.03rem 0.22rem 0.03rem 0;
+            border-right: 0.01rem solid #565204;
+        }
+        .header a:nth-of-type(2) img{
+            width: 0.30rem;
+            height: 0.30rem;
+        }
+        .header a:nth-of-type(3){
+            display: inline-block;
+            width: 0.33rem;
+            height: 0.31rem;
+            margin-left: 0.21rem;
+        }
+        .header a:nth-of-type(3) img{
+            width: 0.33rem;
+            height: 0.31rem;
+        }
+        .swiper-container{
+            width: 6.4rem;
+            height: 3.4rem;
+            position: relative;
+        }
+        .swiper-slide img{
+            width: 6.4rem;
+            height: 3.4rem;
+            z-index: 1;
+        }
+        .banner_bg{
+            width: 6.21rem;
+            height: 0.4rem;
+            background: rgba(0,0,0,0.3);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+            font-size: 0.3rem;
+            padding-left: 0.19rem;
+            color: whitesmoke;
+        }
+        .nav{
+            width: 6.4rem;
+            height:0.67rem;
+            background: -webkit-linear-gradient(top,white 1%,#cbcbc7 100%);
+            margin-top: 0.03rem;
+            font-size: 0;
+            line-height: 0.67rem;
+        }
+        .nav a{
+            width: 2.1rem;
+            font-size: 0.3rem;
+            color: #a3a1a1;
+            display: inline-block;
+            text-align: center;
+            height:0.59rem;
+            line-height:0.59rem;
+            border-right: 0.01rem solid #e6e6de;
+            margin-top: 0.04rem;
+
+        }
+        .main{
+            width: 6.4rem;
+        }
+        .main_one{
+            height: 1.27rem;
+            padding-top: 0.15rem;
+            padding-left: 0.35rem;
+            overflow: hidden;
+        }
+        .main_one:nth-of-type(2n){
+            background: #eeede1;
+        }
+        .main_one:nth-of-type(2n-1){
+            background: white;
+        }
+        .main_one img{
+            width: 1.15rem;
+            height: 1.06rem;
+            float: left;
+            margin-right: 0.27rem;
+        }
+        .main_one p:nth-of-type(1){
+            font-size: 0.3rem;
+            color: black;
+            float: left;
+            margin-bottom: 0.05rem;
+        }
+        .main_one p:nth-of-type(1) a{
+            font-size: 0.3rem;
+            color: black;
+        }
+        .main_one p:nth-of-type(2){
+            font-size: 0.24rem;
+            color: #555353;
+            float: left;
+        }
+        .main_one p:nth-of-type(3){
+            width: 4.1rem;
+            float: left;
+        }
+        .main_one p:nth-of-type(3) a{
+            width: 0.78rem;
+            height: 0.32rem;
+            font-size: 0.24rem;
+            background: -webkit-linear-gradient(top,#ff4a16 0%,#ff2a14 100%);
+            display: inline-block;
+            color: white;
+            float: right;
+            border-radius: 0.05rem;
+            text-align: center;
+            line-height: 0.32rem;
+            margin-top: 0.12rem;
+
+        }
+        .main_one span{
+            font-size: 0.3rem;
+            color: #e60505;
+            margin-top: 0.07rem;
+            display: inline-block;
+            float:right;
+            margin-right: 0.29rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href=""><img src="images/left_pic.png" alt=""></a>
+        <span>快餐火车</span>
+        <a href=""><img src="images/center_pic.png" alt=""></a>
+        <a href=""><img src="images/right_pic.png" alt=""></a>
+    </div>
+    <div class="swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide"><img src="images/three_banner.png" alt=""></li>
+            <li class="swiper-slide"><img src="images/three_banner.png" alt=""></li>
+            <li class="swiper-slide"><img src="images/three_banner.png" alt=""></li>
+        </ul>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination" style="text-align: right;bottom:-0.15rem;z-index: 3"></div>
+        <div class="banner_bg">美味都市套餐，6元起</div>
+    </div>
+    <div class="nav">
+        <a href="">时间</a><a href="">价格</a><a href="" style="border-right: 0">销量</a>
+    </div>
+    <div class="main">
+        <div class="main_one">
+            <img src="images/three_main1.png" alt="">
+            <p><a href="">68元精品商务套餐</a></p>
+            <p>糖醋排骨 青椒牛柳 溜虾仁 素炒茼蒿</p>
+            <p>
+            <a href="four.html">购买</a>
+            <span>￥68</span>
+            </p>
+
+
+        </div>
+        <div class="main_one">
+            <img src="images/three_main2.png" alt="">
+            <p><a href="">68元精品商务套餐</a></p>
+            <p>糖醋排骨 青椒牛柳 溜虾仁 素炒茼蒿</p>
+            <p>
+                <a href="">购买</a>
+                <span>￥68</span>
+            </p>
+
+
+        </div>
+        <div class="main_one">
+            <img src="images/three_main3.png" alt="">
+            <p><a href="">68元精品商务套餐</a></p>
+            <p>糖醋排骨 青椒牛柳 溜虾仁 素炒茼蒿</p>
+            <p>
+                <a href="">购买</a>
+                <span>￥68</span>
+            </p>
+
+
+        </div>
+        <div class="main_one">
+            <img src="images/three_main4.png" alt="">
+            <p><a href="">68元精品商务套餐</a></p>
+            <p>糖醋排骨 青椒牛柳 溜虾仁 素炒茼蒿</p>
+            <p>
+                <a href="">购买</a>
+                <span>￥68</span>
+            </p>
+
+
+        </div>
+        <div class="main_one">
+            <img src="images/three_main5.png" alt="">
+            <p><a href="">68元精品商务套餐</a></p>
+            <p>糖醋排骨 青椒牛柳 溜虾仁 素炒茼蒿</p>
+            <p>
+                <a href="">购买</a>
+                <span>￥68</span>
+            </p>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+
+    });
+</script>
